@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="1º Trabalho de Programação para Internet – Prof. Daniel A. Furtado">
+  <title>Trabalho 1 html - Currículo</title>
+  <style>
+    body {
+      background-color: rgb(58, 99, 99);
+
+    }
+
+    table {
+      margin: 0 auto;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+
+    }
+
+    nav {
+      background-color: darkslategray;
+      color: rgb(0, 0, 0);
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      margin-left: -6px;
+    }
+
+    li{
+      display: inline;
+    }
+
+    a{
+       padding: 10px 20px;
+       color: rgb(214, 213, 213);
+       text-decoration: none;
+       font-size: 15px;
+       font-weight: bold;
+    }
+
+    
+  </style>
+
+</head>
+
+<body>
+  <main>
+    <!--Cabeçalho-->
+    <header>
+      <table>
+        <tr>
+          <td>
+            <img width="150" height="150" src='/images/pp.jpg' alt="Minha foto" />
+          </td>
+          <td>
+            <h2>Matrix</h2>
+          </td>
+        </tr>
+      </table>
+
+    <nav>
+      <ul>
+        <li> <a href="#dados">Dados Pessoais </a></li>
+        <li> <a href="#formacao">Formação Acadêmica</a></li>
+        <li> <a href="#experiencia">Experiência Profissional </a></li>
+        <li> <a href="#info">Informações de contato </a></li>
+        <li> <a href="galeria.html">Galeria </a></li>
+        <li> <a href="form.html">Formulário de Contato</a></li>
+        <li> <a href="#topo">Rodapé</a></li>
+      </ul>
+    </nav>
+  
+
+
+    </header>
+  
+
+    <!--navegação-->
+
+
+    <!--dados pessoais-->
+    <h2 id="dados">Dados Pessoais</h2>
+    <address>
+      <p><strong>Rua:</strong> Hyper Text Markup Language - HTML</p>
+      <p><strong>Cidade:</strong> JavaScript </p>
+      <p><strong>Bairro:</strong> Desenvolvedores</p>
+      <p><strong>Telefone:</strong> (34)99999-9999</p>
+    </address>
+
+    <hr />
+
+    <!--formação-->
+    <section>
+      <h2 id="formacao">Formação Acadêmica</h2>
+      <p><strong>Universidade:</strong> Instituto de Tecnologia de Massachusetts</p>
+      <p><strong>Curso:</strong> Information systems </p>
+    </section>
+    <hr />
+
+    <!--experiencia-->
+    <section>
+      <h2 id="experiencia">Experiência Profissional</h2>
+      <q>Engenheiro de Software com mais de cinco anos de experiência, full stack, como foco em produtividade.</q>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>REACT</li>
+        <li>REACT NATIVE</li>
+        <li>NODEJS</li>
+        <li>MYSQL</li>
+      </ul>
+    </section>
+
+    <hr />
+    <!--informação contato-->
+    <section class="footer">
+      <h2 id="info">Informações de contato</h2>
+      <ol>
+        <li><strong>Email:</strong><a href="#">Matrixdev@email.com</a></li>
+        <li><strong>Linkedin:</strong><a href="#"> www.linkedin.com/example-matrix-dev</a></li>
+        <li><strong>Whatsapp:</strong><a href="#"> (34)99999-9999</a></li>
+      </ol>
+      <iframe src="galeria.html" width="400" height="200"></iframe>
+    </section>
+    <hr />
+
+    <footer id="topo">&copy; Copyright 2021.Todos os direiros reservados</footer>
+  </main>
+</body>
+
+</html>
